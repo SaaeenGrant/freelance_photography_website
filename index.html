@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambelle</title>
+    <!-- STYLESHEET LINK -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONT IMPORTATION -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="hero">
+        <div class="overlay">
+            <!-- NAVIGATION BAR -->
+            <div class="nav__container container">
+                <a href="index.html" class="logo"><h2>[Cambelle]</h2></a>
+                <div class="nav__content">
+                    <ul class="nav__links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <div class="social__links mobile-social__links ">
+                            <img src="/images/instagram.svg" alt="instagram">
+                            <img src="/images/facebook.svg" alt="facebook">
+                            <img src="/images/pinterest.svg" alt="pintrest">
+                            <img src="/images/twitter.svg" alt="twitter">
+                        </div>
+                    </ul>
+    
+                    <div class="social__links lg-social__links ">
+                        <img src="/images/instagram.svg" alt="instagram">
+                        <img src="/images/facebook.svg" alt="facebook">
+                        <img src="/images/pinterest.svg" alt="pintrest">
+                        <img src="/images/twitter.svg" alt="twitter">
+                    </div>
+                    
+                    <div class="toggle-menu  toggle-active"><img src="/images/hamurger.svg" width = "32px" height = "32px" alt=""></div>                
+                </div>
+            </div>
+            
+            <!-- HERO SECTION -->
+            <div class="hero__items">
+                <h1 class="title">Collin Cambelle</h1>
+                <h4 class="sub-title">Freelance Photographer</h4>
+                <button class="hero-btn">See More<span><img src="/images/arrow.svg" width = "24px" height = "24 px" alt=""></span></button>
+                <div class="scroll-action "><img src="/images/down-arrow.svg" width = "40px" height = "40px" alt=""></div>
+            </div>  
+
+        </div>
+    </div>
+
+     <!-- ABOUT SECTION -->
+    <div class="about container">
+        <div class="about__items">
+            <div class="flex-left">
+                <img src="/images/about_image.png" alt="">
+            </div>
+            <div class="flex-right">
+                <div class="section-title">
+                    <h1>About Me</h1>
+                    <div class="border"></div>
+                </div>
+
+                <div class="paragraphs">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus explicabo expedita consequatur repellat, animi odit. Nisi aspernatur commodi est voluptatem quos placeat, sequi unde magni minima nesciunt dolore? In itaque illo libero explicabo!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus unde quibusdam perferendis doloribus? Ab, at aperiam deserunt quisquam totam error.</p>
+                </div>
+
+                <button>contact Me<span><img src="/images/arrow.svg" width = "24px" height = "24 px" alt=""></span></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES SECTION -->
+    <div class="services">
+        <div class="services__items container">
+            <div class="section-title">
+                <h1>Services Provided</h1>
+                <div class="border"></div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="/images/camera.svg" width = "40px" height = "40px" alt="">
+                    <h3 class="card-title">Photography</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis aperiam voluptate ducimus iste. Architecto, nulla.</p>
+                    <button class="card-btn">
+                        Read More
+                        <span><img src="/images/arrow-primary.svg" width = "24px" height = "24 px" alt=""></span>
+                    </button>
+                </div>
+                <div class="card">
+                    <img src="/images/edit.svg" width = "40px" height = "40px" alt="">
+                    <h3 class="card-title">Photo Editing</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis aperiam voluptate ducimus iste. Architecto, nulla.</p>
+                    <button class="card-btn">
+                        Read More
+                        <span><img src="/images/arrow-primary.svg" width = "24px" height = "24 px" alt=""></span>
+                    </button>
+                </div>
+                <div class="card">
+                    <img src="/images/customer.svg" width = "40px" height = "40px" alt="">
+                    <h3 class="card-title">Photo Consultation</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis aperiam voluptate ducimus iste. Architecto, nulla.</p>
+                    <button class="card-btn">
+                        Read More
+                        <span><img src="/images/arrow-primary.svg" width = "24px" height = "24 px" alt=""></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO SECTION -->
+    <div class="portfolio container">
+        <div class="portfolio__items">
+            <div class="section-title">
+                <h1>Portfolio</h1>
+                <div class="border"></div>
+            </div>
+
+            <div class="tag-container">
+                <p class="tag active" data-name="all">All</p>
+                <p class="tag" data-name="commercial">Commercial</p>
+                <p class="tag" data-name="real-estate">Real Estate</p>
+                <p class="tag" data-name="fashion">Fashion</p>
+                <p class="tag" data-name="wedding">Wedding</p>
+                <p class="tag" data-name="nature">Nature</p>
+            </div>
+
+            <div class="gallery"></div>
+        </div>
+    </div>
+
+    <!-- SLOGAN SECTION -->
+    <div class="slogan">
+      <div class="slogan-overlay">
+        <div class="slogan-text">
+            <h1>We experience amazing moments, why not frame them</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- TESTIMONIALS SECTION -->
+    <div class="testimonials container">
+        <div class="testimonials__items">
+
+            <div class="section-title">
+                <h1>Testimonials</h1>
+                <div class="border"></div>
+            </div>
+
+            <div class="arrow-container">
+                <div class="arrow arrow-left"><img src="/images/arrow.svg" alt="" srcset=""></div>
+                <div class="arrow arrow-right"><img src="/images/arrow.svg" alt="" srcset=""></div>
+            </div>
+
+            <div class="testimonial__card-container">
+
+                <div class="testimonial-card">
+                    <div class="card-qoute-top"><img src="/images/quote.svg" alt="" srcset=""></div>
+                    <div class="testimonial-content">
+                        <h3 class="testimonial-name">Johnathan Doe</h3>
+                        <p class="testimonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam ut porro, eius saepe quos nesciunt?</p>
+                    </div>
+                    <div class="card-qoute-bottom"><img src="/images/quote.svg" alt="" srcset=""></div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="card-qoute-top"><img src="/images/quote.svg" alt="" srcset=""></div>
+                    <div class="testimonial-content">
+                        <h3 class="testimonial-name">Jessica Doe</h3>
+                        <p class="testimonial-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam ut porro, eius saepe quos nesciunt?</p>
+                    </div>
+                    <div class="card-qoute-bottom"><img src="/images/quote.svg" alt="" srcset=""></div>
+                </div>  
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <div class="footer">
+        <div class="footer__items">
+            <div class="footer-item">
+                <h1>[combelle]</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tenetur provident molestiae, ea ducimus consectetur?</p>
+            </div>
+            <div class="footer-item">
+                <h4>Learn More</h4>
+                <a href="#">About</a>
+                <a href="#">Services Provided</a>
+                <a href="#">FAQ</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Portfolio</a>
+            </div>
+            <div class="footer-item">
+                <h4>Socials</h4>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Pintrest</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="footer-item">
+                <h4>Contact</h4>
+                <a href="#">collincambelle@cambelle.com</a>
+                <a href="#">1 (876) 000 - 0000</a>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right__items">
+        <div class="cr-item"></div>
+        <p>Ⓒ2022 cambelle , All rights reserved</p>
+        <div class="cr-item">
+            <img src="/images/down-arrow-primary.svg" width="32px" height="32px" alt="" srcset="">
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+    <script type= "module" src="gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+[
+    {
+
+        "image": "/images/gallery-images/apartment-real-estate.jpg",
+        "tag": "real-estate",
+        "grid-width": "w-1",
+        "grid-height": "h-1"
+        
+
+    },
+    {
+
+        "image": "/images/gallery-images/beach-fashion.jpg",
+        "tag": "fashion",
+        "grid-width": "w-1",
+        "grid-height": "h-1"
+
+    },
+    {
+
+        "image": "/images/gallery-images/building-real-estate.jpg",
+        "tag": "real-estate",
+        "grid-width": "w-1",
+        "grid-height": "h-1"
+
+    },
+    {
+
+        "image": "/images/gallery-images/orange-commercial.jpg",
+        "tag": "commercial",
+        "grid-width": "w-1",
+        "grid-height": "h-1"
+
+    },
+    {
+
+        "image": "/images/gallery-images/sunshine-wedding.jpg",
+        "tag": "wedding",
+        "grid-width": "w-1",
+        "grid-height": "h-1"
+
+    },
+    {
+
+        "image": "/images/gallery-images/tropical-nature.jpg",
+        "tag": "nature",
+        "grid-width": "w-1",
+        "grid-height": "h-1"
+
+    }
+]
